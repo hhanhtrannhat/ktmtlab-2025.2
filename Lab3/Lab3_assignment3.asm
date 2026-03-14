@@ -3,7 +3,7 @@
 	test: .word 2
 .text
 	addi s2,zero,0
-	addi s3,zero,0
+	addi s3,zero,0	
 	la s0,test#nap dia chi cua bien word cho s0
 	lw s1,0(s0)#nap gia tri cua s0 cho s1
 	addi t1,zero,0#t1=0
